@@ -74,13 +74,19 @@
   flex-direction: column;
   padding: 50px 0;
   justify-content: space-between;
-  gap: 50px;
+  gap: 100px;
   align-items: center;
   box-sizing: border-box;
   width: 100%;
   height: 100%;
 }
 
+.body-header{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
 .body-heading{
   font-size: 36px;
   font-weight: bolder;
@@ -126,7 +132,6 @@
 }
 
 .quote-area{
-  margin-top: 50px;
   background-color: #E5E7EB;
   width: 100%;
   height: 600px;
@@ -153,6 +158,43 @@
   font-size: 20px;
 }
 
+.sign-up{
+  display: flex;
+  border-radius: 10px;
+  color: white;
+  background-color: #3882F6;
+  align-self: center;
+  justify-content: space-between;
+  width: 60%;
+  padding: 40px 70px;
+}
+
+
+.sign-up > text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0px;
+}  
+
+.sign-up .heading{
+  font-weight: 1000;
+  font-size: 20px;
+}
+.sign-up button{
+  display: block;
+  font-size: 15px;
+  font-weight: bolder;
+  background: transparent;
+  color: white;
+  border: 2px white solid;
+  border-radius: 5px;
+  height: 30px;
+  align-self: flex-end;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  width: 150px;
+}
 html,body{
   width: 100%;
   height: 100%;
